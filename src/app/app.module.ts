@@ -11,13 +11,15 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { ListcomponentComponent } from './listcomponent/listcomponent.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponentComponent,
-    LoginComponentComponent
+    LoginComponentComponent,
+    ListcomponentComponent
   ],
   imports: [
     BrowserModule,

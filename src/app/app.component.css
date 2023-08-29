@@ -1,1 +1,15 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+a{  text-decoration: none;
+
+    color: rgb(17, 8, 17);
+}
+
+.spacer{
+
+    flex: 1 1 auto;
+}
+
+.headline{
+    text-align: center;
+}
